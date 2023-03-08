@@ -1,0 +1,52 @@
+.cart {
+    position: sticky;
+    top: 0;
+}
+
+.cart-title {
+    text-align: center;
+}
+
+.cart-title p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.cart-details {
+    padding: 40px;
+}
+
+.grandTotal {
+    color: coral;
+}
+
+.clear-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 20px;
+    color: white;
+    background-color: #FF3030;
+    cursor: pointer;
+}
+
+.clear-btn:hover {
+    background-color: #6eb101;
+    color: white;
+}
+
+.delete-btn-text {
+    font-size: 18px;
+}
+
+.delete-btn-icon {
+    font-size: 18px;
+    margin-left: 5px;
+}
